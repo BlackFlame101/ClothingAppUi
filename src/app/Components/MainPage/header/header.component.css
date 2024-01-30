@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 20;
+}
+.btn-outline-light {
+    border: none !important;
+}
+.btn-outline-light:hover,
+.btn-outline-light:active {
+    position: relative;
+    border-bottom: 2px solid; 
+    bottom: -3px; 
+    text-decoration: underline;
+}
+
+.btn-outline-light {
+    text-decoration: none;
+}

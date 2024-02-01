@@ -22,7 +22,7 @@ export class UtilityService {
     return finalPrice;
   }
 
-  // JWT Helper Service : npm install @auth0/angular-jwt
+  
 
   getUser(): User {
     let token = this.jwt.decodeToken();

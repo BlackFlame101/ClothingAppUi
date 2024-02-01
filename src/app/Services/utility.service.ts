@@ -102,8 +102,4 @@ export class UtilityService {
     }
     return pricepaid;
   }
-
-  orderTheCart() {
-    
-  }
 }
